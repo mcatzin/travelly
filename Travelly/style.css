@@ -95,7 +95,7 @@ nav ul {
 /* Hero */
 .hero {
   min-height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url("./img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,6 +272,12 @@ footer {
   width: 90%;
   margin: auto;
   min-height: 10vh;
+}
+
+button:focus {
+  background: #212f41;
+  outline-style: solid;
+  outline-color: white;
 }
 @media screen and (max-width: 970px) {
   html {
